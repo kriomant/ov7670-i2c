@@ -1,0 +1,19 @@
+[package]
+name = "ov7670-i2c"
+description = "A no_std asynchronous driver for the OV7670 camera control registers"
+authors = ["kriomant@gmail.com"]
+categories = ["embedded", "no-std", "hardware-support"]
+keywords = ["ov7670", "camera", "embedded-hal", "async", "no-std"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/kriomant/ov7670-i2c"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+embedded-hal-async = "1.0.0"
+bitfields = "1.0.2"
+paste = "1.0"
+
+[features]
+default = []
